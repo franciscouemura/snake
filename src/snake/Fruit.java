@@ -22,6 +22,6 @@ public class Fruit {
         this.colorR = 0.3f + r.nextFloat()*0.7f;
         this.colorG = 0.3f + r.nextFloat()*0.7f;
         this.colorB = 0.3f + r.nextFloat()*0.7f;
-        coordinate = new Coordinate(r.nextInt(60)-30, r.nextInt(60)-30);
+        coordinate = new Coordinate(r.nextInt(58)-29, r.nextInt(58)-29);
     }
 }
